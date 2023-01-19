@@ -1,0 +1,20 @@
+@import "base.css";
+@import "header.css";
+@import "preferred_loc.css";
+@import "boost.css";
+@import "examples.css";
+@import "revolut.css";
+@import "brown.css";
+@import "integrate.css";
+@import "case-studies.css";
+@import "footer.css";
+
+@font-face { 
+    font-family: GraphikLCG-Regular;  
+    src: url('../fonts/GraphikLCG-Regular.ttf'); 
+} 
+
+@font-face { 
+    font-family: GraphikLCG-Semibold;  
+    src: url('../fonts/GraphikLCG-Semibold.ttf'); 
+} 

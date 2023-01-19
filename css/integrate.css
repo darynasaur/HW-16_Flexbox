@@ -1,0 +1,34 @@
+.integrate__total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1023px;
+    margin: 0 auto;
+    padding: 169px 0px 140px 0px;
+}
+
+.integrate__total button {
+    width: 193px;
+    height: 60px;
+
+}
+
+.integrate__total h3 {
+    font-family: GraphikLCG-Semibold;
+    font-size: 65px;
+    line-height: 75px;
+    max-width: 791px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.integrate__total p {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 539px;
+    text-align: center;
+}
+
+.integrate__total img {
+    padding: 20px 0px
+}

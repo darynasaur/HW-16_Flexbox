@@ -1,0 +1,33 @@
+.boost_catalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 154px 0px;
+}
+
+.boost_items {
+    display: flex;
+}
+
+.boost_card {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.boost_card img {
+    max-width: 180px;
+    max-height: 210px;
+}
+
+.boost_card .img-holder {
+    width: 180px;
+    height: 210px;
+}
+
+.boost_card p {
+    max-width: 409px;
+    max-height: 300px;
+    overflow: hidden;
+    padding-bottom: 35px;
+}

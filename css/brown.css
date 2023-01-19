@@ -1,0 +1,42 @@
+.brown {
+    background-color: #DABC98;
+}
+
+.brown__total {
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 0px;
+}
+
+.brown__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 809px;
+}
+
+.brown__right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 481px;
+    border-left: 1px solid black;
+}
+
+.brown_logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brown__right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brown h4 {
+    font-family: GraphikLCG-Semibold;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 0px;
+    padding-left:67px
+}
