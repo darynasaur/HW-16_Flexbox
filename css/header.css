@@ -24,7 +24,8 @@ ul {
 
 a {
     text-decoration: none;
-    color:black;    
+    color:black;  
+
 }
 
 a:hover {
@@ -46,6 +47,9 @@ button {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-family: GraphikLCG-Semibold;
+    font-size: 16px;
+    line-height: 45px;
 }
 
 header button {
@@ -86,19 +90,20 @@ header button {
     justify-content: space-between;  
     width:330px;
     padding-bottom: 25px;
+    line-height: 60px;
 }
 
 .localization {
    display: flex;
    justify-content: space-between;
-   padding: 110px 0px;
+   align-items: center;
+   padding: 136px 23px 170px 23px;
 }
 
 .localization__total-text {
     width: 552px;
     display: flex;
     flex-direction: column;
-    height: 610px;
     overflow: hidden;
 }
 
@@ -118,7 +123,7 @@ h1 {
     max-width: 471px;
     max-height: 200px;
     overflow: hidden;
-    padding-bottom: 40px;
+    padding-bottom: 48px;
 }
 
 .logo:hover {
@@ -128,4 +133,15 @@ h1 {
 
 nav {
     border-bottom: 1px solid  #E5E5E5;;
+}
+
+
+.navigation__list a {
+    font-size: 15px;
+line-height: 20px;
+}
+
+.localization__total-text .small-text {
+    font-size: 15px;
+line-height: 25px;
 }

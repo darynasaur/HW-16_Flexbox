@@ -5,7 +5,7 @@
 .brown__total {
     display: flex;
     justify-content: space-between;
-    padding: 85px 0px;
+    padding: 89px 0px;
 }
 
 .brown__left {
@@ -24,8 +24,8 @@
 }
 
 .brown_logo img {
-    max-width: 100%;
-    height: auto;
+    width: 176px;
+    height: 154px;
 }
 
 .brown__right img {

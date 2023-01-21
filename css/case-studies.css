@@ -10,12 +10,18 @@
     font-family: GraphikLCG-Semibold;
     margin: 0;
     padding-bottom: 28px;
+    
+}
+
+.case-studies .bicycle {
+ width: 300px;
+ height: 300px;
 }
 
 .case-studies_left-and-right {
     display: flex;
     justify-content: space-between;
-    padding:92px 0px;
+    padding:92px 20px;
     border-bottom: 1px solid black;
 }
 
@@ -23,6 +29,10 @@
     max-width: 370px;
     display: flex;
     flex-direction: column;
+}
+
+.case-studies_left p {
+    max-width: 290px;
 }
 
 .case-studies_left .mini-logo {
@@ -36,14 +46,15 @@
     font-size: 20px;
     line-height: 30px;
     font-family: GraphikLCG-Semibold;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .case-studies_right {
     display: flex;
     justify-content: space-between;
     max-width: 850px;
-    
+    padding-top:10px;
+    column-gap: 5px;
 }
 
 .case-studies_card ul {
@@ -55,7 +66,7 @@ h6 {
     line-height: 25px;
     font-family: GraphikLCG-Semibold;
     margin: 0;
-    padding-bottom: 21px;
+    padding-bottom: 15px;
 }
 
 .case-studies_card li {
@@ -64,6 +75,6 @@ h6 {
 }
 
 .case-studies_card {
-    padding: 0 17px;
+    padding: 0 ;
 }
 

@@ -3,7 +3,7 @@
 }
 
 .container {
-    max-width: 1460px;
+    max-width: 1350px;
     padding:0px 10px;
     margin:0 auto;
 }
@@ -24,6 +24,6 @@ p {
     width: 25%;
 }
 
-body {
+* {
     font-family: GraphikLCG-Regular;
 } 
