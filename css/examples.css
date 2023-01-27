@@ -25,8 +25,8 @@
 
 h3 {
     font-family: GraphikLCG-Semibold;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 5rem;
+    line-height: 6rem;
     
 }
 
@@ -37,14 +37,14 @@ h3 {
 
 h4 {
     font-family: GraphikLCG-Semibold;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
     margin:22px 0px 20px 0px;
 }
 
 .examples_cards p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     max-height: 120px;
     overflow: hidden;
     text-align: center;
@@ -59,4 +59,85 @@ h4 {
 
 .examples_cards .card a {
     text-decoration: underline;
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    .examples_catalog {
+        padding: 50px 0px 47px 0px;
+    }
+
+    .examples_all-cards {
+        padding: 30px 40px 34px 40px;
+        row-gap: 50px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .examples_catalog {
+        padding: 25px 0px 25px 0px;
+    }
+    
+    .examples_all-cards {
+        padding: 5px 40px 10px 40px;
+        row-gap: 20px;
+    }
+
+.examples_cards {
+    padding: 0
+}
+
+.examples_cards p {
+    max-width: 200px;
+}
+
+.examples_cards img {
+    max-width: 100px;
+    height: auto;
+}
+
+.examples_cards h4 {
+    margin: 0px;
+}
+
+.examples h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+}
+
+
+
+@media (max-width:425px) {
+    .examples_catalog {
+        padding: 10px 0px ;
+    }
+    
+
+    .examples_all-cards {
+        padding: 5px 10px;
+        row-gap: 20px;
+    }
+
+    .examples_catalog h3 {
+        font-size: 4rem;
+    }
+
+    .examples_all-cards {
+        flex-direction: column;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    
 }

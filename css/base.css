@@ -6,6 +6,7 @@
     max-width: 1350px;
     padding:0px 10px;
     margin:0 auto;
+    overflow: hidden;
 }
 
 p {
@@ -16,7 +17,15 @@ p {
     width: 50%;
 }
 
+
+.w-50 {
+    width: 50%;
+}
 .col-4 {
+    width: 33.33%;
+}
+
+.col-md-4{
     width: 33.33%;
 }
 
@@ -27,3 +36,26 @@ p {
 * {
     font-family: GraphikLCG-Regular;
 } 
+
+html {
+    font-size: 10px;
+}
+
+@media (max-width:1024px) {
+
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media (max-width:425px) {
+    html {
+        font-size: 5px; 
+    }
+}

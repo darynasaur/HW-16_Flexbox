@@ -5,8 +5,8 @@
 
 
 .case-studies_left h5 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 4rem;
+    line-height: 5rem;
     font-family: GraphikLCG-Semibold;
     margin: 0;
     padding-bottom: 28px;
@@ -43,8 +43,8 @@
 }
 
 .case-studies_left .start {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
     font-family: GraphikLCG-Semibold;
     padding-top: 20px;
 }
@@ -62,8 +62,8 @@
 }
 
 h6 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     font-family: GraphikLCG-Semibold;
     margin: 0;
     padding-bottom: 15px;
@@ -78,3 +78,66 @@ h6 {
     padding: 0 ;
 }
 
+
+
+@media (max-width:1024px) {
+ 
+
+}
+
+
+@media (max-width:768px) {
+
+    .case-studies .bicycle {
+        width: 180px;
+        height: auto;
+    }
+
+    .case-studies_left-and-right {
+        padding: 20px 10px;
+    }
+
+    .case-studies_left h5 {
+        padding-bottom: 10px;
+    }
+
+    .case-studies_left .mini-logo {
+        padding:10px 0px;
+    } 
+
+    .case-studies_left{
+        max-width: 200px;
+    }
+
+    .case-studies_right a{
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media (max-width:425px) {
+    .case-studies_left-and-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .case-studies_left  {
+        text-align: center;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+       
+    }
+    .case-studies_right {
+    flex-wrap: wrap;
+    column-gap: 0px;
+    text-align: center;
+}
+
+    .case-studies_card a{
+font-size: 1.7rem;
+}
+
+}

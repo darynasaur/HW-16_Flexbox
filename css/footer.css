@@ -29,8 +29,36 @@ footer {
 }
 
 .footer-total p {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     padding-left: 10px;
     max-width: 301px;
+}
+
+
+
+
+
+
+@media (max-width:1024px) {
+ 
+}
+
+
+@media (max-width:768px) {
+    .footer-total {
+        padding: 20px 0px;
+    }
+
+    .footer-right {
+        padding-right: 20px;
+    }
+
+    footer img {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:425px) {
+   
 }

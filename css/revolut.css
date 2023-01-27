@@ -25,15 +25,75 @@
 
 .revolut_img {
     padding: 56px 18px 0px 20px;
+
+}
+
+.revolut_img img {
+    min-width: 310px;
 }
 
 .revolut_text .long {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 3rem;
+    line-height: 4rem;
     padding-bottom: 23px;
 }
 
 .revolut_text p {
-font-size: 15px;
-line-height: 25px;
+font-size: 1.5rem;
+line-height: 2.5rem;
+}
+
+@media (max-width:1024px) {
+    .revolut_text {
+        padding-bottom: 100px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .revolut_text {
+        padding: 40px 0px 40px 23px;
+        
+    }
+
+    .revolut_text .long {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .revolut_img img {
+        max-width: 200px;
+        min-width: 200px;
+    }
+    .revolut_img {
+        padding: 30px 18px 0px 20px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .revolut_text {
+        padding: 10px 20px ;
+        
+    }
+
+    .revolut_img img {
+        max-width: 100px;
+        min-width: 100px;
+    }
+
+.revolut_text-and-img {
+    flex-direction: column;
+    align-items: center;
+}
+
+.revolut_text img {
+    max-width: 50px;
+}
+
+.revolut_img {
+    padding: 0px 5px;
+}
+
+
 }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Flexbox</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7af2d8fae8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   </head>
   <body>
     <header>
@@ -13,7 +15,7 @@
             <div class="logo">
               <a href=#><img src="./images/logo.svg" alt="logo"></a>
             </div>
-            <ul class="navigation__list">
+            <ul class="navigation__list" id="nav_list">
               <li><a href=#>Products</a></li>
               <li><a href=#>Features</a></li>
               <li><a href=#>Pricing</a></li>
@@ -21,10 +23,12 @@
               <li><a href=#>Resources</a></li>
             </ul>
           </div>  
+          
           <div class="navigation__buttons">
-            <button class="white">Log in</button>
+            <button class="white">Log in</button>   
             <button class="orange">Try it free</button>
           </div>
+          <div class="icons" id="menu"><i class="fa-solid fa-bars"></i></div>
         </div>
       </div>
     </header>
@@ -66,36 +70,36 @@
       <div class="container">
           <div class="control__catalog">
             <div class="control__2items">
-              <div class="control__item ">
+              <div class="control__item w-50">
                 <h2>Control the localization process</h2>
                 <p>Collaborate with your team in a single workspace. Add and assign <a href=#>tasks</a>, track progress, and enjoy a seamless localization workflow where you know who is doing what and when.</p>
                 <a class="start" href=#>Start now</a>
               </div>
-              <div class=""><img src="./images/control_1.png" alt="img"></div>
+              <div class="w-50"><img src="./images/control_1.png" alt="img"></div>
             </div>
             <div class="control__2items">
-              <div class="control__item ">
+              <div class="control__item w-50">
                 <h2>Shorten time to market</h2>
                 <p>Localize your product in parallel with the development cycle. Use the <a href=#>Adobe XD</a>, <a href=#>Figma</a>, and <a href=#>Sketch</a> plugins to start working on translations as soon as the product design is ready. No more idle waiting.</p>
                 <a class="start" href=#>Start now</a>
               </div>
-              <div class=""><img  src="./images/control_2.png" alt="img"></div>
+              <div class="w-50"><img  src="./images/control_2.png" alt="img"></div>
             </div>
             <div class="control__2items">
-              <div class="control__item ">
+              <div class="control__item w-50">
                 <h2>Ensure quality</h2>
                 <p>Use built-in tools — e.g. <a href=#>translation memory</a>, machine translation, and <a href=#>QA checks</a> — to enhance the quality and cohesion of translations. Add product <a href=#>screenshots</a> for context and use the <a href=#>in-context editors</a> for instant previews.</p>
                 <a class="start" href=#>Start now</a>
               </div>
-              <div class=""><img src="./images/control_3.png" alt="img"></div>
+              <div class="w-50"><img src="./images/control_3.png" alt="img"></div>
             </div>
             <div class="control__2items">
-              <div class="control__item ">
+              <div class="control__item w-50">
                 <h2>Less work for developers</h2>
                 <p>Eliminate the hassle of localization and let developers get back to their main tasks. Save hours with the powerful <a href=#>API</a>, <a href=#>CLI</a>, <a href=#>mobile SDKs</a>, and integrations with  <a href=#>GitHub</a>, <a href=#>Bitbucket</a>, <a href=#>JIRA</a>, and more.</p>
                 <a class="start" href=#>Start now</a>
               </div>
-              <div class=""><img src="./images/control_4.png" alt="img"></div>
+              <div class="w-50"><img src="./images/control_4.png" alt="img"></div>
             </div>
           </div>
       </div>
@@ -105,42 +109,42 @@
         <div class="examples_catalog">
           <h3>What can you localize with Lokalise?</h3>
           <div class="examples_all-cards">
-            <div class="examples_cards col-4">
+            <div class="examples_cards col-md-4 col-sm-6 col-xs-12">
               <div class="card">
                 <a href=#><img src="./images/1_example.png" alt="img"></a>
                 <h4>Web apps</h4>
                 <p>Any kind of web apps — backend, frontend, single page, blogs — you name it.</p>
               </div>
             </div>
-            <div class="examples_cards col-4">
+            <div class="examples_cards col-md-4 col-sm-6 col-xs-12">
               <div class="card">
                 <a href=#><img src="./images/2_example.png" alt="img"></a>
                 <h4>Mobile apps</h4>
                 <p>Upload any mobile platform language files. Embed <a href=#>Lokalise iOS SDK</a> or <a href=#>Lokalise Android SDK</a> if you prefer.</p>
               </div>
             </div>
-            <div class="examples_cards col-4">
+            <div class="examples_cards col-md-4 col-sm-6 col-xs-12">
               <div class="card">
                 <a href=#><img src="./images/3_example.png" alt="img"></a>
                 <h4>Games</h4>
                 <p>Our cloud software is trusted by many leading game developers around the world.</p>
               </div>
             </div>
-            <div class="examples_cards col-4">
+            <div class="examples_cards col-md-4 col-sm-6 col-xs-12">
               <div class="card">
                 <a href=#><img src="./images/4_example.png" alt="img"></a>
                 <h4>Documents</h4>
                 <p>Upload your DOCX and static HTML files.</p>
               </div>
             </div>
-            <div class="examples_cards col-4">
+            <div class="examples_cards col-md-4 col-sm-6 col-xs-12">
               <div class="card">
                 <a href=#><img src="./images/5_example.png" alt="img"></a>
                 <h4>Marketing e-mails</h4>
                 <p>Integrate with Salesforce Marketing Cloud (coming soon) or translate static e-mails.</p>
               </div>
             </div>
-            <div class="examples_cards col-4">
+            <div class="examples_cards col-md-4 col-sm-6 col-xs-12">
               <div class="card">
                 <a href=#><img src="./images/6_example.png" alt="img"></a>
                 <h4>IoT</h4>
@@ -156,19 +160,19 @@
         <div class="boost_catalog">
           <h3>Boost your localization team’s productivity tenfold</h3>
           <div class="boost_items">
-            <div class="boost_card col-4">
+            <div class="boost_card col-md-4 col-xs-12">
               <div class="img-holder"><img src="./images/1_boost.png" alt="img"></div>
               <h4>Managers</h4>
               <p>Update existing and launch new features and products while simultaneously localizing them in multiple languages. Streamline your team's workflow, maximize productivity, and speed up expansion to other markets.</p>
               <a href=#>Learn more</a>
             </div>
-            <div class="boost_card col-4">
+            <div class="boost_card col-md-4 col-xs-12">
               <div class="img-holder"><img src="./images/2_boost.png" alt="img"></div>
               <h4>Developers</h4>
               <p>Set up an integration with your code repository or your own custom SDK via Lokalise's powerful API. Do that once, and every time you make changes in the code, they'll be automatically imported to Lokalise for translation.</p>
               <a href=#>Learn more</a>
             </div>
-            <div class="boost_card col-4">
+            <div class="boost_card col-md-4 col-xs-12">
               <div class="img-holder"><img src="./images/3_boost.png" alt="3"></div>
               <h4>Translators</h4>
               <p>Eliminate double-work and neverending revisions with visual context (screenshots) and live previews. Improve the quality and speed of your translations with built-in CAT tools, like autocomplete, inline machine translation, and translation memory.</p>
@@ -238,7 +242,7 @@
             <a class="start" href=#>Read more</a>
           </div>
           <div class="case-studies_right">
-            <div class="case-studies_card col-3">
+            <div class="case-studies_card col-3 col-xs-6">
               <h6>Product</h6>
               <ul>
                 <li><a href=#>For developers</a></li>
@@ -251,7 +255,7 @@
                 <li><a href=#>Automations</a></li>
               </ul>
             </div>
-            <div class="case-studies_card col-3">
+            <div class="case-studies_card col-3 col-xs-6">
               <h6>Support</h6>
               <ul>
                 <li><a href=#>Contact</a></li>
@@ -264,7 +268,7 @@
                 <li><a href=#>Supported File Formats</a></li>
               </ul>
             </div>
-            <div class="case-studies_card col-3">
+            <div class="case-studies_card col-3 col-xs-6">
               <h6>Company</h6>
               <ul>
                 <li><a href=#>About</a></li>
@@ -274,7 +278,7 @@
                 <li><a href=#>Media Kit</a></li>
               </ul>
             </div>
-            <div class="case-studies_card col-3">
+            <div class="case-studies_card col-3 col-xs-6">
               <h6>Legal</h6>
               <ul>
                 <li><a href=#>Terms of Service</a></li>
@@ -306,4 +310,16 @@
       </div>
     </footer>
   </body>
+  <script>
+    let menu = document.getElementById('menu');
+    let nav_list = document.getElementById('nav_list')
+    menu.addEventListener('click', list);
+
+    function list (){
+      nav_list.classList.toggle('active'); 
+      document.body.classList.toggle('active');
+    }
+
+
+  </script>
   </html>

@@ -26,8 +26,8 @@
 
 .boost_card h4 {
     padding:10px 0px;
-    font-size: 30px;
-line-height: 40px;
+    font-size: 3rem;
+    line-height: 4rem;   
 }
 
 
@@ -50,6 +50,76 @@ line-height: 40px;
 
 .boost_card a {
     text-decoration: underline;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+@media (max-width:1024px) {
+    .boost_catalog {
+        padding: 86px 0px 100px 0px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .boost_catalog {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .boost_catalog h3 {
+        margin: 0px;
+    }
+
+    .boost_items {
+        padding: 15px 0px;
+        column-gap: 10px;
+    }
+    .boost_card .img-holder {
+        width: 100px;
+        height: 130px;
+    }
+
+    .boost_card h4 {
+        margin: 0px;
+    }
+
+    .boost_card p {
+        padding-bottom: 10px;
+        height: 185px;
+    }
+}
+
+@media (max-width:425px) {
+    .boost_catalog {
+        padding: 10px 0px;
+    }
+
+    .boost_items {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .boost_card {
+        align-items: center;
+    }
+
+    .boost_card p {
+        height: auto;
+        padding: 0px 20px;
+    }
+
+    .boost h3 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .boost_card .img-holder {
+        width: 100px;
+        height: auto;
+    }
+
 }

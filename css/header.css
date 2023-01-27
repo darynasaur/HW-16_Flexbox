@@ -34,6 +34,7 @@ a:hover {
 
 .navigation__list {
     padding-left:51px;
+    background-color: #fff;
 }
 
 .navigation__buttons {
@@ -48,8 +49,8 @@ button {
     align-items: center;
     cursor: pointer;
     font-family: GraphikLCG-Semibold;
-    font-size: 16px;
-    line-height: 45px;
+    font-size: 1.6rem;
+    line-height: 4.5rem;
 }
 
 header button {
@@ -90,7 +91,7 @@ header button {
     justify-content: space-between;  
     width:330px;
     padding-bottom: 25px;
-    line-height: 60px;
+    line-height: 6rem;
 }
 
 .localization {
@@ -110,16 +111,16 @@ header button {
 
 h1 {
     font-family: GraphikLCG-Semibold;
-    font-size: 65px;
-    line-height: 70px;
+    font-size: 6.5rem;
+    line-height: 7rem;
     margin: 0px;
     overflow: hidden;
     padding-bottom: 51px;
 }
 
 .text {
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
     max-width: 471px;
     max-height: 200px;
     overflow: hidden;
@@ -137,11 +138,182 @@ nav {
 
 
 .navigation__list a {
-    font-size: 15px;
-line-height: 20px;
+    font-size: 1.5rem;
+line-height: 2rem;
 }
 
 .localization__total-text .small-text {
+    font-size: 1.5rem;
+line-height: 2.5rem;
+}
+
+
+.icons {
+    display: none;
+}
+
+.icons i {
+    font-size: 30px;
+    color:#FF6336;
+    padding-top: 5px;
+    
+}
+
+
+header {
+    position: relative;
+}
+
+.navigation__list.active {
+    position: absolute;
+    display: block;
+    right: 0;
+    top:80%;
+}
+
+.navigation__list.active {
+    border: 1px solid #FF6336;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.5);
+    
+}
+
+.navigation__list.active li {
+    cursor: pointer;
+    padding-bottom: 10px;
     font-size: 15px;
-line-height: 25px;
+    
+}
+
+.navigation__list.active a {
+
+    font-size: 11px;
+}
+
+
+
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .localization__buttons {
+        width: auto;
+    }
+
+    .localization {
+        padding: 100px 23px 100px 23px;
+    }
+
+    ul {
+        width: auto;
+    }
+    li {
+        padding-right: 10px;
+    }
+
+    .navigation__list {
+        padding-left: 15px;
+    }
+
+    header button {
+        width: 110px;
+        height: 30px;
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+   .navigation__list {
+    display: none;
+   }
+
+   .icons {
+    display: block;
+    }
+    .localization {
+        padding: 40px 15px 40px 16px;
+        column-gap:10px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    line-height: 5rem;
+    padding-bottom: 20px;
+    }
+
+    .localization button {
+        height: auto;
+        
+    }
+
+    .text {
+        padding-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .navigation__list.active {
+        right: 0;
+        top:80%;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .navigation__list.active a {
+        font-size: 4rem;
+    }
+
+    body.active {
+        overflow: hidden;
+    }
+
+    .navigation__buttons {
+        width: 150px;
+        column-gap: 10px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .localization {
+        flex-direction: column;
+        padding: 15px 0px ;
+    }
+
+    .localization__buttons {
+    justify-content: center;
+    column-gap: 10px;
+}
+    .localization__total-text {
+        width: auto;
+        text-align: center;
+    }
+
+    .localization__buttons .orange {
+        width: 75px;
+        
+    }
+
+      .localization__buttons .white {
+        width: 75px;
+        
+    }
+
+    .localization__image img {
+        max-width: 200px;
+    }
+
+
+
 }
